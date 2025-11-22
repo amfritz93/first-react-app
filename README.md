@@ -1,16 +1,81 @@
-# React + Vite
+# First React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple counter application built with Vite, React, and Tailwind CSS. This project demonstrates the basic setup and functionality of a modern React application with styled components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive counter with Add, Subtract, and Reset buttons
+- Modern UI with Tailwind CSS styling
+- Fast development with Vite's HMR (Hot Module Replacement)
+- Responsive design
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Clone the repository
+git clone https://github.com/amfritz93/first-react-app.git
 
-## Expanding the ESLint configuration
+# Navigate to project directory
+cd first-react-app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+```
+
+## Usage
+
+```bash
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Run linter
+npm run lint
+```
+
+The development server will start at `http://localhost:5173`
+
+## Technologies Used
+
+- **React 19.2.0** - JavaScript library for building user interfaces
+- **Vite 7.2.4** - Fast build tool and development server
+- **Tailwind CSS 4.1.17** - Utility-first CSS framework
+- **@tailwindcss/postcss** - PostCSS plugin for Tailwind v4
+- **ESLint** - Code linting and quality
+
+## Project Structure
+
+```
+first-react-app/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── App.css
+│   ├── App.jsx          # Main application component
+│   ├── index.css        # Tailwind CSS imports
+│   └── main.jsx         # Application entry point
+├── index.html
+├── package.json
+├── postcss.config.js    # PostCSS configuration
+├── tailwind.config.js   # Tailwind configuration
+└── vite.config.js       # Vite configuration
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+Project Link: [https://github.com/amfritz93/first-react-app](https://github.com/amfritz93/first-react-app)
